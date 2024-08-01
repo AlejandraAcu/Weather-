@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow:wght@400;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-family: "Bebas Neue", sans-serif;
+    box-sizing: border-box;
+
+    *, 
+    *::after,
+    *::before {
+        box-sizing: inherit;
+    }
+
+    body{
+        margin: 0;
+    }
+    h1,
+    h2,
+    h3,
+    p,
+    ul {
+        margin:0;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    img{
+        display: block;
+        max-width: 100%;
+    }
+
+    button {
+        font-family: inherit;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+/* Reusable Classes  */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-container {
+    display: grid;
+  }
